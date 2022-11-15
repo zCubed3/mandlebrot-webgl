@@ -2,6 +2,12 @@ body {
     background-color: #1c1c1c;
 }
 
+html * {
+    color: black !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
 .center {
     position: absolute;
 
@@ -12,4 +18,17 @@ body {
 
 .mandlebrot {
     border-radius: 15px;
+}
+
+.panel {
+    position: relative;
+    border: 10px solid transparent;
+    border-radius: 10px;
+    background-color: white;
+    border-image-slice: 10% fill;
+
+    padding: 0px;
+    margin: auto;
+    display: inline-block;
+    z-index: 2;
 }
